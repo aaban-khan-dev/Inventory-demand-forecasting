@@ -205,3 +205,56 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ================================
+# Data files (do NOT push raw data)
+# ================================
+*.csv
+*.xlsx
+*.parquet
+
+# ================================
+# Model artifacts
+# ================================
+*.joblib
+*.pkl
+*.model
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Python cache files
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+
+# ================================
+# Virtual environments
+# ================================
+venv/
+.env/
+
+# ================================
+# Logs & outputs
+# ================================
+*.log
+outputs/
+results/
+predictions/
+
+# ================================
+# IDE / Editor settings
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# OS-specific files
+# ================================
+.DS_Store
+Thumbs.db
+
